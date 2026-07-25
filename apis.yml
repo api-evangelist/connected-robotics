@@ -1,8 +1,20 @@
 aid: connected-robotics
 name: Connected Robotics
-description: Connected Robotics is a company surfaced as a portfolio company of 500-global and added to
-  the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: >-
+  Connected Robotics Inc. is a Japanese foodtech startup, founded in 2014 by
+  Tetsuya Sawanobori and headquartered in Koganei, Tokyo, that develops
+  specialized robotics and AI systems to automate labor-intensive work across
+  food factories and restaurants. Its product line pairs AI image-processing and
+  robot-control technology with purpose-built machines including the Delibot S
+  plating robot, Delibot X filling robot, AI inspection software, a soft-serve
+  ice-cream robot, and a french-fry cooking robot, targeting labor shortages,
+  productivity, and food safety. The company has raised multiple rounds
+  (including a July 2019 Series A led by Global Brain and a Series B closed in
+  2023 with strategic investors such as Yaskawa Electric, Hoshizaki, and
+  Mitsubishi HC Capital) and was surfaced in the API Evangelist network as a
+  500 Global portfolio company. As a hardware and robotics manufacturer,
+  Connected Robotics publishes no public web API, developer portal, or SDK at
+  this time.
 url: https://raw.githubusercontent.com/api-evangelist/connected-robotics/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,11 +22,29 @@ x-backed-by:
 - 500-global
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
+- Robotics
+- Foodtech
+- Automation
+- Artificial Intelligence
+- Manufacturing
+- Japan
+image: https://connected-robotics.com/wp-content/themes/cr-theme-2023/img/header_logo.png
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -24,3 +54,18 @@ maintainers:
 common:
 - type: Website
   url: https://connected-robotics.com
+- type: About
+  url: https://connected-robotics.com/en/about/
+- type: Blog
+  url: https://connected-robotics.com/news/
+- type: Support
+  url: https://connected-robotics.com/en/contact/
+- type: PrivacyPolicy
+  url: https://connected-robotics.com/privacy-policy/
+- type: DomainSecurity
+  url: security/connected-robotics-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
